@@ -6,7 +6,7 @@ generic_headers = {
 }
 
 
-def get_player_pages(wiki: str, headers=generic_headers) -> list:
+def get_player_pages(wiki: str, headers: dict = generic_headers) -> list:
     """Retrieve all player pages from a specific game's Liquidipedia."""
     url = f"https://liquipedia.net/{wiki}/api.php"
 
@@ -17,7 +17,7 @@ def get_player_pages(wiki: str, headers=generic_headers) -> list:
         "cmtitle": "Category:Players",
         "cmlimit": "max",  # Fetch the maximum number of pages per request (usually 500)
     }
-    
+
     all_players = []
     continue_token = None
 
@@ -40,9 +40,22 @@ def get_player_pages(wiki: str, headers=generic_headers) -> list:
     return all_players
 
 
-def find_matching_items(items, pattern):
-    """Pre-processing step to strip the extra brackets stuff which is usually used to distinguish players with the same name (which we don't want!)."""
-    # Use list comprehension to filter items that match the pattern
-    matching_items = [item for item in items if re.search(pattern, item)]
-    
+def clean_username(regex_pattern: str, player_name: str) -> str:
+    """Isolates username by removing additional context in brackets."""
+    if re.search(regex_pattern, player_name):
+        index = player_name.rfind(" (")
+
+        # Slice string after the last instance of a left bracket
+        if index != -1:
+            return player_name[:index]
+        else:
+            raise ValueError("Regex pattern must be wrong")
+
+    else:
+        return player_name
+
+
+def filter_items(regex_pattern: str, items: list) -> list:
+    """Filter input list for items that match given regex pattern."""
+    matching_items = [item for item in items if re.search(regex_pattern, item)]
     return matching_items
