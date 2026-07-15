@@ -1,0 +1,76 @@
+Age of Empires as ageofempires
+Apex Legends as apexlegends
+Arena FPS as arenafps
+Artifact as artifact
+Auto Chess as autochess
+Battalion 1944 as battalion
+Battlerite as battlerite
+Brawlhalla as brawlhalla
+Brawl Stars as brawlstars
+Call of Duty as callofduty
+Chess as chess
+Clash of Clans as clashofclans
+Clash Royale as clashroyale
+Counter-Strike as counterstrike
+Critical Ops as criticalops
+CrossFire as crossfire
+Deadlock as deadlock
+Delta Force as deltaforce
+Dota 2 as dota2
+EA Sports FC as easportsfc
+Esports Virtual Arenas as eva
+Fighting Games as fighters
+Formula 1 as formula1
+Fortnite as fortnite
+Free Fire as freefire
+GeoGuessr as geoguessr
+GOALS as goals
+Halo as halo
+Hearthstone as hearthstone
+Heroes of the Storm as heroes
+Honor of Kings as honorofkings
+Hub as hub
+Identity V as identityv
+Illuvium as illuvium
+Lab as lab
+League of Legends as leagueoflegends
+Magic: The Gathering as magic
+Marvel Rivals as marvelrivals
+Mobile Legends: Bang Bang as mobilelegends
+Naraka as naraka
+Omega Strikers as omegastrikers
+osu as osu
+Overwatch as overwatch
+Paladins as paladins
+Pokémon as pokemon
+PUBG as pubg
+PUBG Mobile as pubgmobile
+Rainbow Six as rainbowsix
+Rematch as rematch
+Rocket League as rocketleague
+Legends of Runeterra as runeterra
+Rocket League Sideswipe as sideswipe
+Sim Racing as simracing
+Smash as smash
+SMITE as smite
+Splatoon as splatoon
+Splitgate as splitgate
+Star Wars: Squadrons as squadrons
+StarCraft Brood War as starcraft
+StarCraft 2 as starcraft2
+Stormgate as stormgate
+Escape from Tarkov: Arena as tarkovarena
+Team Fortress as teamfortress
+Tetris as tetris
+Teamfight Tactics as tft
+The Finals as thefinals
+TrackMania as trackmania
+Dota Underlords as underlords
+VALORANT as valorant
+Warcraft as warcraft
+War Thunder as warthunder
+Wildcard as wildcard
+Wild Rift as wildrift
+World of Tanks as worldoftanks
+World of Warcraft as worldofwarcraft
+Zula as zula
